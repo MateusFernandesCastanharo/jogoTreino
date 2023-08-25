@@ -1,0 +1,21 @@
+﻿  game.cpp
+  main.cpp
+  Generating Code...
+game.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: void __thiscall game::init(char const *,int,int,int,int,bool)" (?init@game@@QAEXPBDHHHH_N@Z)
+game.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "public: void __thiscall game::init(char const *,int,int,int,int,bool)" (?init@game@@QAEXPBDHHHH_N@Z)
+game.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "public: void __thiscall game::clear(void)" (?clear@game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: void __thiscall game::handleEvents(void)" (?handleEvents@game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "public: void __thiscall game::init(char const *,int,int,int,int,bool)" (?init@game@@QAEXPBDHHHH_N@Z)
+game.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: void __thiscall game::init(char const *,int,int,int,int,bool)" (?init@game@@QAEXPBDHHHH_N@Z)
+game.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "public: void __thiscall game::render(void)" (?render@game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "public: void __thiscall game::render(void)" (?render@game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "public: void __thiscall game::render(void)" (?render@game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "public: void __thiscall game::clear(void)" (?clear@game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: void __thiscall game::init(char const *,int,int,int,int,bool)" (?init@game@@QAEXPBDHHHH_N@Z)
+game.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall game::clear(void)" (?clear@game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol _IMG_Load referenced in function "public: void __thiscall game::init(char const *,int,int,int,int,bool)" (?init@game@@QAEXPBDHHHH_N@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+E:\C++\SDL2-2.28.2\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\C++\SDL2-2.28.2\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\C++\SDL2_image-2.6.3\lib\x64\SDL2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\C++\teste\Jogo\Jogo\Debug\Jogo.exe : fatal error LNK1120: 14 unresolved externals
